@@ -14,7 +14,7 @@ frontend hbnb-lb_front
 backend hbnb-lb_back
         balance roundrobin
         server 159014-web-01 3.94.211.184 check
-        server 159014-web-02 54.210.196.248 check
+        server 159014-web-02 54.160.90.81 check
 " >> /etc/haproxy/haproxy.cfg
 
 echo "ENABLED=1" >> /etc/default/haproxy
