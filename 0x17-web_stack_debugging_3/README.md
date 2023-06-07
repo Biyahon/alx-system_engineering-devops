@@ -1,2 +1,2 @@
 # Web stack debugging #3
-tasks 
+all tasks 
